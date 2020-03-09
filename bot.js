@@ -11,8 +11,8 @@ bot.on('message', message =>{
     
      if(message.author.id != "683723648753991680" && message.channel.id === "624994517111537695"){
         if(msg.startsWith(',', 0)){
-            if(msg === prefix + "hlo" && message.channel.id === "624994517111537695"){
-                message.channel.send('AA GAYE GAANDU YAHA MARWANE KE LIYE ') // Sends a message to the channel, with the content
+            if(msg === prefix + "hI" && message.channel.id === "624994517111537695"){
+                message.channel.send('AA GAYE GAANDU YAHA MARWANE KE LIYE ') 
             }
             else{
                 message.channel.send("Hey, I only understand ,Hii right now. jab khali hunga :) ")
