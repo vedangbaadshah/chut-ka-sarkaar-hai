@@ -12,7 +12,7 @@ bot.on('message', message =>{
      if(message.author.id != "683723648753991680" && message.channel.id === "624994517111537695"){
         if(msg.startsWith(',', 0)){
             if(msg === prefix + "hI" && message.channel.id === "624994517111537695"){
-                message.channel.send('AA GAYE GAANDU YAHA MARWANE KE LIYE ') 
+                message.channel.send('Aa gaya mai') 
             }
             else{
                 message.channel.send("Hey, I only understand ,Hii right now. jab khali hunga :) ")
@@ -20,7 +20,7 @@ bot.on('message', message =>{
         }
         else{
             message.delete();
-            message.channel.send(sender + " this bot only accepts commands which starts with '>' dot.");
+            message.channel.send(sender + " this bot only accepts commands which starts with ',' dot.");
         }
     }
 });
